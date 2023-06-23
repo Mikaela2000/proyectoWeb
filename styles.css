@@ -1,0 +1,39 @@
+.items a:hover{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+}
+
+.migas{
+    font-weight: 500;
+    padding: 0 20px 0 20px;
+    letter-spacing: 0.1em;
+}
+.migas > ol > li:hover{
+    border-radius: 50px;
+    border-style: double;
+}
+
+.tablaEstudiantes{
+    background-color: rgb(192, 184, 180);
+    border-radius: 25px;
+    text-align: center;
+}
+.tablaEstudiantes tr:hover{
+    background-color: goldenrod;
+}
+
+.formularioContainer{
+    background-color: rgb(192, 184, 180);
+    border-radius: 25px;
+}
+
+.tarjetas{
+    background-color: rgb(192, 184, 180);
+    text-align: center;
+    width: 350px;    
+    border-radius: 20px;
+}
+.tarjetas img{
+    border-radius: 50%;
+}

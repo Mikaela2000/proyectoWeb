@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Gestión de estudiantes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light border border-dark">
+            <div class="container-fluid items">
+                <a class="navbar-brand ms-3">
+                    <img src="img/logo-empresa.jpg" width="100" height="70" class="d-inline-block align-center"
+                        alt="Logo empresa">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-auto me-auto" style="background-color: grey;">
+                            <i class="fas fa-home"><a class="nav-item nav-link" href="estudiantes.html">Gestión de
+                                    estudiantes</a></i>
+                        </li>
+                        <li class="nav-item ms-auto me-auto">
+                            <i class="fas fa-utensils"><a class="nav-link" href="usuarios.html">Listado de
+                                    usuarios</a></i>
+                        </li>
+                        <li class="nav-item ms-auto me-auto">
+                            <i class="fas fa-info-circle"><a class="nav-link" href="shows.html">Buscador de shows de
+                                    TV</a></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <nav aria-label="breadcrumb" class="migas">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" href="#">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">Gestión de estudiantes</li>
+            </ol>
+        </nav>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <table class="table tablaEstudiantes">
+                        <thead>
+                            <tr>
+                                <th scope="col">Legajo</th>
+                                <th scope="col">Apellido/s</th>
+                                <th scope="col">Nombre/s</th>
+                                <th scope="col">Nota</th>
+                                <th scope="col">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cuerpoTablaEstudiantes">
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-6 formularioContainer">
+                    <form action="#" id="formEstudiante">
+                        <label for="txtLegajo" class="form-label mt-3">Legajo</label>
+                        <input type="number" class="form-control" name="leg" id="txtLegajo" aria-describedby="helpIdApe"
+                            placeholder="">
+                        <label for="txtApellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" name="ape" id="txtApellido" aria-describedby="helpIdApe"
+                            placeholder="">
+                        <label for="txtNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" name="nom" id="txtNombre" aria-describedby="helpIdApe"
+                            placeholder="">
+                        <label for="txtNota" class="form-label">Nota</label>
+                        <input type="number" class="form-control" name="not" id="txtNota" aria-describedby="helpIdApe"
+                            placeholder="">
+                        <button type="submit" class="btn btn-primary mt-3 mb-3">Confirmar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="js/estudiantes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>
